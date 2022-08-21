@@ -1,0 +1,7 @@
+1. I created proxy HTTP web server(framework GIN) for 3rd-party service.
+2. As service i wrote simple micro-service to search data from internet(i used serp-api)
+3. For protocol i used gRPC. I created service.proto file inside directory "./proto".
+
+For run this -proxy server:
+  1. Start gRPC server: go run server/server.go
+  2. Start proxy server: go run client/client.go
