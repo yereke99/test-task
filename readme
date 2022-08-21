@@ -5,3 +5,11 @@
 For run this -proxy server:
   1. Start gRPC server: go run server/server.go
   2. Start proxy server: go run client/client.go
+For testing send json GET request by POSTMAN:
+  `
+  {
+	"method":"GET",
+	"url": "nothing",
+	"data": "car"
+  }
+  `
